@@ -447,14 +447,14 @@ h1 {
 
 
 
-/* Experience */
+/* Work experience */
 
-#experience {
+#workexperience {
   padding: 100px 0;
   background-color: #fff;
 }
 
-#experience h2 {
+#workexperience h2 {
   font-family: 'SF Pro Text', Helvetica;
   font-size: 48px;
   font-weight: bold;
@@ -462,37 +462,37 @@ h1 {
   text-align: center;
 }
 
-#experience .grid {
+#workexperience .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
 }
 
-#experience .item {
+#workexperience .item {
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   padding: 20px;
 }
 
-#experience .item h3 {
+#workexperience .item h3 {
   font-family: 'SF Pro Text', Helvetica;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-#experience .item p {
+#workexperience .item p {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
 }
 
-#experience .item ul {
+#workexperience .item ul {
   margin-bottom: 20px;
   list-style: none;
 }
 
-#experience .item ul li {
+#workexperience .item ul li {
   margin-bottom: 10px;
 }
 
