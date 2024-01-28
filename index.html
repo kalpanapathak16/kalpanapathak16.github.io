@@ -152,7 +152,7 @@
             // Get the highest number of stars
             const highestStars = sortedProjects[0].stargazers_count;
             // Filter projects with the highest number of stars or less number of stars
-            const topProjects = sortedProjects.filter(project => project.stargazers_count <= highestStars).slice(0, 6);
+            const topProjects = sortedProjects.filter(project => project.stargazers_count <= highestStars).slice(1, 6);
             // Create an HTML string for each project
             const projectHtml = topProjects.map(project => `
             <div class="project-card">
