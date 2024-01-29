@@ -447,14 +447,14 @@ h1 {
 
 
 
-/* Work experience */
+/* Experience */
 
-#workexperience {
+#experience {
   padding: 100px 0;
   background-color: #fff;
 }
 
-#workexperience h2 {
+#experience h2 {
   font-family: 'SF Pro Text', Helvetica;
   font-size: 48px;
   font-weight: bold;
@@ -462,49 +462,49 @@ h1 {
   text-align: center;
 }
 
-#workexperience .grid {
+#experience .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
 }
 
-#workexperience .item {
+#experience .item {
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   padding: 20px;
 }
 
-#workexperience .item h3 {
+#experience .item h3 {
   font-family: 'SF Pro Text', Helvetica;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-#workexperience .item p {
+#experience .item p {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
 }
 
-#workexperience .item ul {
+#experience .item ul {
   margin-bottom: 20px;
   list-style: none;
 }
 
-#workexperience .item ul li {
+#experience .item ul li {
   margin-bottom: 10px;
 }
 
 
-/* Technical writing contributions */
+/* Publications */
 
-#techwritingcontributions {
+#publications {
   padding: 100px 0;
   background-color: #fff;
 }
 
-#techwritingcontributions h2 {
+#publications h2 {
   font-family: 'SF Pro Text', Helvetica;
   font-size: 48px;
   font-weight: bold;
@@ -512,37 +512,37 @@ h1 {
   text-align: center;
 }
 
-#techwritingcontributions .grid {
+#publications .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
 }
 
-#techwritingcontributions .item {
+#publications .item {
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   padding: 20px;
 }
 
-#techwritingcontributions .item h3 {
+#publications .item h3 {
   font-family: 'SF Pro Text', Helvetica;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-#techwritingcontributions .item p {
+#publications .item p {
   margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
 }
 
-#techwritingcontributions .item ul {
+#publications .item ul {
   margin-bottom: 20px;
   list-style: none;
 }
 
-#techwritingcontributions .item ul li {
+#publications .item ul li {
   margin-bottom: 10px;
 }
 
