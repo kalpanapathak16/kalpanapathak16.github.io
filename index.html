@@ -135,24 +135,25 @@
       <div class="project-container">
         <h2>Projects</h2>
         <div id="projects-container"></div>
+	<p><a href: "https://github.com/kalpanapathak16/Data-Analysis-of-best-selling-books-dataset/blob/main/Data%20Analysis%20of%20best-selling%20books%20dataset.slides.html" target="_blank"> Data Analysis of best selling books dataset </a> <br/>Language: Python </p>
       </div>
     
       <script>
         // Replace YOUR_USERNAME with your GitHub username
-        const url = 'https://api.github.com/users/kalpanapathak16/repos';
+        // const url = 'https://api.github.com/users/kalpanapathak16/repos';
     
         // Make a request to the GitHub API
-        fetch(url)
-          .then(response => response.json())
-          .then(data => {
+       // fetch(url)
+         // .then(response => response.json())
+          // .then(data => {
             // Filter out forked repositories
-            const nonForkedProjects = data.filter(project => !project.fork);
+            // const nonForkedProjects = data.filter(project => !project.fork);
             // Sort the remaining data by the number of stars in descending order
-            const sortedProjects = nonForkedProjects.sort((a, b) => b.stargazers_count - a.stargazers_count);
+            // const sortedProjects = nonForkedProjects.sort((a, b) => b.stargazers_count - a.stargazers_count);
             // Get the highest number of stars
-            const highestStars = sortedProjects[0].stargazers_count;
+            // const highestStars = sortedProjects[0].stargazers_count;
             // Filter projects with the highest number of stars or less number of stars
-            const topProjects = sortedProjects.filter(project => project.stargazers_count = highestStars).slice(0, 6);
+            // const topProjects = sortedProjects.filter(project => project.stargazers_count = highestStars).slice(0, 6);
             // Create an HTML string for each project
             const projectHtml = topProjects.map(project => `
             <div class="project-card">
@@ -160,9 +161,9 @@
             <p>${project.description || ''}</p>
             <span class="language" style="background-color: ${project.languageColor}">${project.language}</span>
             <span class="spacer"></span>
-            <p>Stars: ${project.stargazers_count}</p>
-            <p>Last updated: ${new Date(project.updated_at).toLocaleDateString()}</p>
-            <a class="view-live" href="${project.homepage || project.html_url}" target="_blank">View Live</a>
+           // <p>Stars: ${project.stargazers_count}</p>
+            // <p>Last updated: ${new Date(project.updated_at).toLocaleDateString()}</p>
+            // <a class="view-live" href="${project.homepage || project.html_url}" target="_blank">View Live</a>
           </div>
             `).join('');
             // Add the HTML to the projects container
